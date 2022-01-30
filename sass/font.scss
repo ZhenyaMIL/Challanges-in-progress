@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url('../fonts/ProximaNova-Light.woff');
+    src: url('../fonts/ProximaNova-Light.woff') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Light.woff') format('woff'),
+        url('../fonts/ProximaNova-Light.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/ProximaNova-Regular.woff');
+    src: url('../fonts/ProximaNova-Regular.woff') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/ProximaNova-Regular.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../fonts/ProximaNova-Semibold.woff');
+    src: url('../fonts/ProximaNova-Semibold.woff') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+        url('../fonts/ProximaNova-Semibold.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-light{
+    font-family: 'Proxima Nova Light';
+}
+@mixin font-regular{
+    font-family: 'Proxima Nova Regular';
+}
+@mixin font-bold{
+    font-family: 'Proxima Nova Semibold';
+}

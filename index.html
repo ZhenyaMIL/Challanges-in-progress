@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <script defer src="/your-path-to-fontawesome/js/brands.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/solid.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/style.css">
+    <title>Chellenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+
+<body class='active'>
+    <header>
+        <div class="main_container">
+            <div class="menu_and_title">
+                <div id="menu-btn">
+                    <span class="icon"></span>
+                    <span class="text">MENU</span>
+                </div>
+        
+                <div class="title_arrow">
+                    <h1 class='main_title'>Мои Челенджи</h1>
+                </div>
+
+               
+            </div>
+            <div class="arrow">
+                <i class="fas fa-user"></i> <!-- uses solid style -->
+            </div>
+          
+
+           
+           
+        </div>
+       
+
+    </header>
+    <main class='main'>
+       <div class="menu_navigations">
+           <ul class="menu_navigations__list">
+               <li class="item">Главная</li>
+               <li class="item">Общая Статистика</li>
+               <li class="item">Спортивные Результаты</li>
+           </ul>
+       </div>
+
+        <section class='all_challanges'>
+
+            
+
+            <div class="filter">
+                <div class='show-all applyFilter'>
+                    <p>Все</p>
+                </div>
+                <div class='show-active '>
+                    <p>Активные</p>
+                </div>
+            </div>
+
+            <div class="challanges">
+
+                <div class="challanges__item">
+                    <div class="challanges__item__wrapperImgDesc">
+                        <div class="img">
+                            <img src="./img/workout.png" alt="">
+                        </div>
+
+                        <div class="description">
+                            <h3 class="title">Шпагат за 90 дней</h3>
+                            <p class="status" successfuly='' date-end='28.02.2022'></p>
+                            <div class="progress_bar">
+                                <p>61%</p>
+                                <div class="value_of_progress"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="pageone.html" class="more-detail">Подробнее</a>
+                </div>
+
+                <div class="challanges__item">
+                    <div class="challanges__item__wrapperImgDesc">
+
+                        <div class="img">
+                            <img src="./img/jogging.png" alt="">
+                        </div>
+
+                        <div class="description">
+                            <h3 class="title">Пробежать 210 км за 30 дней</h3>
+                            <p class="status" successfuly='yes' date-end='15.06.2021'></p>
+                            <div class="progress_bar">
+                                <p>100%</p>
+                                <div class="value_of_progress"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="more-detail">Подробнее</a>
+                </div>
+
+                <div class="challanges__item">
+                    <div class="challanges__item__wrapperImgDesc">
+
+                        <div class="img">
+                            <img src="./img/sport.png">
+                        </div>
+                        <div class="description">
+                            <h3 class="title">32 тренировки за 42 дня</h3>
+                            <p class="status" successfuly='yes' date-end='10.01.2022'></p>
+                            <div class="progress_bar">
+                                <p>100%</p>
+                                <div class="value_of_progress"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="more-detail">Подробнее</a>
+                </div>
+
+                <div class="challanges__item">
+
+                    <div class="challanges__item__wrapperImgDesc">
+                        <div class="img">
+                            <img src="./img/push-up.png" alt="">
+                        </div>
+                        <div class="description">
+                            <h3 class="title">Сделать 10 тысяч отжиманий за 30 дней</h3>
+                            <p class="status" successfuly='no' date-end='20.01.2022'></p>
+                            <div class="progress_bar">
+                                <p>67%</p>
+                                <div class="value_of_progress"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="more-detail">Подробнее</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
